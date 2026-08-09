@@ -31,4 +31,17 @@ directly into the code.Purity increases testability, readibility and reusability
 
 
 #### Sustainability
+Applies to resources, namely computation, memory, storage, network bandwitdh and hardware, the same discipline that beautiful code applies to logic. Just as well-shaped algorithm avoids
+unnecessary steps, sustainable software avoids unnecesary cost, whethe rhtat means reduced operatione xpense or lowe enviromental effect.
+
+
+#### Durability
+Is about creating designs that can stand the test of time, even as they adapt to new demands. Although predicitng future changes is impossible and real-word constraints often lead to quick fixes and compromises, a design good from the start can provide the flexibility and structure needed to evolve gracefully rather than break quickly under pressure.
+
+#### Creativity
+
+Is the dimension that turns principles into working code. In software, it reaely means inventing something entirely new. More often, ite emrges when develrips face contraints, 
+such as readability, perfomance, deadlines or legacy doe and must still find an effective path/
+
+
 
