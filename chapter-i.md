@@ -44,4 +44,42 @@ Is the dimension that turns principles into working code. In software, it reaely
 such as readability, perfomance, deadlines or legacy doe and must still find an effective path/
 
 
+#### Exception Handling in Functional Pipelines: The Exception to Purity?
 
+When designing clean, functional pipelines, how do we handle exceptional flows where a value is missing or an operation fails? 
+
+In Chapter I's code examples, we encounter **`MissingPriceException`**. It demonstrates how to combine the **expressiveness** of functional pipelines with domain-specific exceptions to make failures explicit, informative, and safe.
+
+##### The Contrast: Imperative vs. Expressive Exception Chaining
+
+**The Imperative Way (Silent and Risky):**
+```java
+public BigDecimal getFinalPrice(Product product) {
+    if (product != null && product.pricingDetails() != null) {
+        if (product.pricingDetails().discountedPrice() != null) {
+            return product.pricingDetails().discountedPrice().amount();
+        } else if (product.pricingDetails().basePrice() != null) {
+            return product.pricingDetails().basePrice().amount();
+        }
+    }
+    // Silent failure: returns null, forcing the caller to handle null or risk NPE
+    return null;
+}
+```
+
+**The Expressive Domain Exception Way (Explicit and Safe):**
+```java
+public BigDecimal getFinalPrice(Product product) throws MissingPriceException {
+    return Optional.ofNullable(product)
+      .map(Product::pricingDetails)
+      .map(this::selectPrice)
+      .map(Price::amount)
+      .orElseThrow(() -> new MissingPriceException(product));
+}
+```
+
+##### How This Reinforces the Theory:
+
+1. **Clarity of Intent:** Instead of returning a ambiguous `null` or throwing a generic `NullPointerException`, the method signature explicitly declares `throws MissingPriceException`. Anyone reading or calling the code immediately understands the failure mode.
+2. **Expressiveness:** The pipeline flows cleanly from step to step, transforming data without nesting or branching. The exception is handled at the very end of the pipeline with `.orElseThrow()`.
+3. **Purity & Safety:** It ensures that we either return a fully valid, computed price or fail explicitly with full domain context (passing the failing `product` instance into the exception itself).

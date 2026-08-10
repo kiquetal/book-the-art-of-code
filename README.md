@@ -1,6 +1,6 @@
 # The Art of Code
 
-Welcome to **The Art of Code**, a repository dedicated to exploring the principles, philosophy, and aesthetics of writing beautiful, sustainable, and high-quality software.
+Welcome to **The Art of Code**, a companion repository dedicated to implementing, following, and exploring the exercises, code examples, principles, and software aesthetics presented in the book **"The Art of Code" by Sandrine Banas**.
 
 ## Table of Contents
 - [About the Project](#about-the-project)
@@ -11,7 +11,7 @@ Welcome to **The Art of Code**, a repository dedicated to exploring the principl
 ---
 
 ## About the Project
-Programming is more than just instructing a machine; it is the art of language design and storytelling. This project is a curated exploration of how master programmers design elegant systems, manage complexity, and craft code that is as much a pleasure to read as it is to run.
+This repository serves strictly as a practical companion and study guide for the book **"The Art of Code" by Sandrine Banas**. It houses code implementations and exercises designed to explore the book's concepts, demonstrating how master programmers design elegant systems, manage complexity, and craft clean, readable software.
 
 ---
 
