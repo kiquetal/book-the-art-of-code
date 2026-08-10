@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <assembly fullname="ArtOfCode.Domain">
+    <resource name="FSharpSignatureData.ArtOfCode.Domain" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedData.ArtOfCode.Domain" action="remove"></resource>
+    <resource name="FSharpSignatureDataB.ArtOfCode.Domain" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedDataB.ArtOfCode.Domain" action="remove"></resource>
+    <resource name="FSharpOptimizationData.ArtOfCode.Domain" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedData.ArtOfCode.Domain" action="remove"></resource>
+    <resource name="FSharpOptimizationDataB.ArtOfCode.Domain" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedDataB.ArtOfCode.Domain" action="remove"></resource>
+    <resource name="FSharpOptimizationInfo.ArtOfCode.Domain" action="remove"></resource>
+    <resource name="FSharpSignatureInfo.ArtOfCode.Domain" action="remove"></resource>
+  </assembly>
+</linker>

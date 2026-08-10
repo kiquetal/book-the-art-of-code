@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>ArtOfCode.Domain</name></assembly>
+<members>
+<member name="M:ArtOfCode.Domain.Chapter1.getFinalPrice(Microsoft.FSharp.Core.FSharpOption{ArtOfCode.Domain.Chapter1.Product})">
+<summary>
+ Safely gets the final price for a product, returning a Result instead of throwing exceptions.
+</summary>
+</member>
+<member name="M:ArtOfCode.Domain.Chapter1.selectPrice(ArtOfCode.Domain.Chapter1.PricingDetails)">
+<summary>
+ Selects the appropriate price from pricing details, favoring the discounted price if present.
+</summary>
+</member>
+</members>
+</doc>
