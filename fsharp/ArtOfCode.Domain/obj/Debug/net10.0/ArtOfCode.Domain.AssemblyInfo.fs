@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("ArtOfCode.Domain")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef64f70e74e48522d51173eb004f83b185ec8a37")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ac55bb7bd811723ca592e822083c826fea74a82")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("ArtOfCode.Domain")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("ArtOfCode.Domain")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]
