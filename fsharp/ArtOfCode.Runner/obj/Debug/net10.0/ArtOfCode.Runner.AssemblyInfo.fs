@@ -7,11 +7,11 @@ open System
 open System.Reflection
 
 
-[<assembly: System.Reflection.AssemblyCompanyAttribute("ArtOfCode.Domain")>]
+[<assembly: System.Reflection.AssemblyCompanyAttribute("ArtOfCode.Runner")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
 [<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4789538f5ff29b9617a867bddb1cc79739b5329")>]
-[<assembly: System.Reflection.AssemblyProductAttribute("ArtOfCode.Domain")>]
-[<assembly: System.Reflection.AssemblyTitleAttribute("ArtOfCode.Domain")>]
+[<assembly: System.Reflection.AssemblyProductAttribute("ArtOfCode.Runner")>]
+[<assembly: System.Reflection.AssemblyTitleAttribute("ArtOfCode.Runner")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]
 do()

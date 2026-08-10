@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vxya/B9C6nc=",
+  "success": true,
+  "projectFilePath": "/mydata/codes/2026/book-the-art-of-code/fsharp/ArtOfCode.Runner/ArtOfCode.Runner.fsproj",
+  "expectedPackageFiles": [
+    "/home/kiquetal/.nuget/packages/fsharp.core/10.0.101/fsharp.core.10.0.101.nupkg.sha512"
+  ],
+  "logs": []
+}

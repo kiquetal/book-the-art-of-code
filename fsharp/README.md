@@ -29,12 +29,21 @@ To build the solution and verify type safety:
 dotnet build ArtOfCode.sln
 ```
 
+### Run Chapter 1 Demos
+To run the executable project and see Chapter 1's pure domain pipelines in action across multiple scenarios:
+
+```bash
+dotnet run --project ArtOfCode.Runner/ArtOfCode.Runner.fsproj
+```
+
 ---
 
 ## Directory Structure
 
 * **`ArtOfCode.Domain/`**: The core business logic library containing our models and pure workflows.
   * [`Chapter1.fs`](ArtOfCode.Domain/Chapter1.fs): Port of the Chapter I concepts, demonstrating algebraic pricing details and exception-free flows.
+* **`ArtOfCode.Runner/`**: An executable console application demonstrating the core domain logic in action.
+  * [`Program.fs`](ArtOfCode.Runner/Program.fs): Sets up mock domain scenarios (valid, discounted, missing values, etc.) and executes them.
 
 ---
 
