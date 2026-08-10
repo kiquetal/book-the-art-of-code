@@ -29,12 +29,20 @@ To build the solution and verify type safety:
 dotnet build ArtOfCode.sln
 ```
 
-### Run Chapter 1 Demos
-To run the executable project and see Chapter 1's pure domain pipelines in action across multiple scenarios:
+### Run Specific Chapters
+You can target and execute the demo for specific chapters by passing them as arguments to the runner application:
 
-```bash
-dotnet run --project ArtOfCode.Runner/ArtOfCode.Runner.fsproj
-```
+* **To run Chapter 1:**
+  ```bash
+  dotnet run --project ArtOfCode.Runner/ArtOfCode.Runner.fsproj -- chapter1
+  ```
+  *(Or simply use `1` as the argument)*
+
+* **To run Chapter 2:**
+  ```bash
+  dotnet run --project ArtOfCode.Runner/ArtOfCode.Runner.fsproj -- chapter2
+  ```
+  *(Or simply use `2` as the argument)*
 
 ---
 
