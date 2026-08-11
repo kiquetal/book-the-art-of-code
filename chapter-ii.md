@@ -51,3 +51,13 @@ method should usually embody one dominat plot, keeping responsabilities focudes
 may be present. but they must remain aligned around single coherent goal.
 
 - Table of contents: list the chapters in the order definitely by the story arc. They provide a high-level oversiew of the story full scope.
+
+
+#### The ending
+
+Every story must end, even in code. Although narrative fiction offers a wide range of resolutions, such as heroes returning changed, dying heroically or leaving an open ending for the reader's imagination, code has no such luxury. Narrative code cloncludes with two equally possible endings success or failure, leaving no room for poetic ambiguity.
+
+In programming, sielnce means success, never failure. Failure, however must always be explicit. 
+Failure itself can vary: it might be total, partial, or accompanied by recovery mechanism.
+
+
